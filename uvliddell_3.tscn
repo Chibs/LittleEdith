@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7iwa7e5t6mmj"]
+
+[ext_resource type="PackedScene" uid="uid://dmtlce4c6bd3n" path="res://uvliddell2.glb" id="1_cjhh2"]
+[ext_resource type="Texture2D" uid="uid://cnhog0skm4dvt" path="res://IBELIEVEINYOU.jpg" id="2_siwya"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tfkmo"]
+cull_mode = 2
+albedo_texture = ExtResource("2_siwya")
+
+[node name="uvliddell2" instance=ExtResource("1_cjhh2")]
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/53/scale = Vector3(1, 1, 1)
+
+[node name="MainProtagMesh_gamejam2025" parent="Armature/Skeleton3D" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tfkmo")

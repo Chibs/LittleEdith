@@ -1,0 +1,1149 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx7q7bfagoor"]
+
+[ext_resource type="PackedScene" uid="uid://eoa1ipaumudl" path="res://pickup.tscn" id="1_vpmat"]
+[ext_resource type="PackedScene" uid="uid://cyjp6qlyn0f6" path="res://health_pickup.tscn" id="2_j63pk"]
+
+[node name="pickups_maze" type="Node3D"]
+
+[node name="_Area3D_120525" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.0483, 9.05597, -409.197)
+
+[node name="_Area3D_120526" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.0465, 9.05597, -400.598)
+
+[node name="_Area3D_120527" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.0444, 9.05597, -390.696)
+
+[node name="_Area3D_120528" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.4708, 6.91764, -302.91)
+
+[node name="_Area3D_120529" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.3749, 6.91764, -317.069)
+
+[node name="_Area3D_120530" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -64.6884, 6.91764, -307.979)
+
+[node name="_Area3D_120531" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -80.616, 6.91764, -308.087)
+
+[node name="_Area3D_120532" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -70.1798, 5.08845, -258.791)
+
+[node name="_Area3D_120533" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -63.4634, 4.91617, -227.256)
+
+[node name="_Area3D_120534" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -52.8045, 5.07712, -239.458)
+
+[node name="_Area3D_120535" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -56.4297, 4.85077, -254.368)
+
+[node name="_Area3D_120536" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -39.7026, 6.91723, -293.706)
+
+[node name="_Area3D_120537" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -19.9473, 6.91723, -278.328)
+
+[node name="_Area3D_120538" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -31.1166, 6.91723, -285.571)
+
+[node name="_Area3D_120539" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -23.0302, 10.4462, -240.698)
+
+[node name="_Area3D_120540" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 19.7375, 6.91769, -247.043)
+
+[node name="_Area3D_120541" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 24.2242, 6.91769, -233.559)
+
+[node name="_Area3D_120542" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 31.6067, 6.91769, -242.181)
+
+[node name="_Area3D_120543" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 14.7634, 6.91769, -237.043)
+
+[node name="_Area3D_120544" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -20.9823, 8.06954, -243.809)
+
+[node name="_Area3D_120545" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -17.0627, 9.30116, -238.732)
+
+[node name="_Area3D_120546" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -9.18183, 6.9173, -208.974)
+
+[node name="_Area3D_120547" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -23.4919, 6.91723, -195.538)
+
+[node name="_Area3D_120548" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -38.1515, 6.91723, -178.356)
+
+[node name="_Area3D_120549" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -70.7053, 6.91761, -201.222)
+
+[node name="_Area3D_120550" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -65.6972, 6.91761, -191.804)
+
+[node name="_Area3D_120551" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -79.5129, 6.91761, -194.534)
+
+[node name="_Area3D_120552" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -74.5416, 6.91761, -183.556)
+
+[node name="_Area3D_120553" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -102.987, 6.91723, -179.791)
+
+[node name="_Area3D_120554" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -110.542, 6.91723, -190.374)
+
+[node name="_Area3D_120555" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -132.662, 6.91723, -206.504)
+
+[node name="_Area3D_120556" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -124.197, 6.91639, -198.029)
+
+[node name="_Area3D_120557" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -132.372, 9.82376, -180.503)
+
+[node name="_Area3D_120558" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -133.45, 9.75255, -183.291)
+
+[node name="_Area3D_120559" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -136.863, 9.30882, -179.776)
+
+[node name="_Area3D_120560" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -31.1767, 6.91714, -187.022)
+
+[node name="_Area3D_120561" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -127.382, 6.91732, -271.775)
+
+[node name="_Area3D_120562" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -116.118, 6.91732, -283.372)
+
+[node name="_Area3D_120563" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -102.373, 6.91732, -298.038)
+
+[node name="_Area3D_120564" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.9555, 9.05605, -153.572)
+
+[node name="_Area3D_120565" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.4274, 9.05605, -147.135)
+
+[node name="_Area3D_120566" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -71.9556, 9.05605, -139.831)
+
+[node name="_Area3D_120567" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -72.6817, 6.91764, -105.482)
+
+[node name="_Area3D_120568" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -68.9417, 6.91764, -90.0474)
+
+[node name="_Area3D_120569" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -61.326, 6.91764, -98.5355)
+
+[node name="_Area3D_120570" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -78.399, 6.91764, -94.3101)
+
+[node name="_Area3D_120571" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -71.7676, 9.05606, -47.0025)
+
+[node name="_Area3D_120572" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -71.1592, 9.05606, -60.3166)
+
+[node name="_Area3D_120573" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -64.0853, 9.05606, -53.9339)
+
+[node name="_Area3D_120574" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -80.3736, 9.05606, -54.8209)
+
+[node name="_Area3D_120575" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -120.475, 6.91761, -81.5864)
+
+[node name="_Area3D_120576" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -120.537, 6.91761, -98.8895)
+
+[node name="_Area3D_120577" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -128.227, 6.91761, -90.5901)
+
+[node name="_Area3D_120578" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -111.079, 6.91761, -89.9641)
+
+[node name="_Area3D_120579" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -174.277, 4.95276, -128.289)
+
+[node name="_Area3D_120580" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -179.829, 5.08699, -142.652)
+
+[node name="_Area3D_120581" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -195.965, 5.087, -145.995)
+
+[node name="_Area3D_120582" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -207.148, 4.85062, -133.005)
+
+[node name="_Area3D_120583" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -198.624, 5.09775, -116.853)
+
+[node name="_Area3D_120584" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -232.31, 14.547, -85.5677)
+
+[node name="_Area3D_120585" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -226.198, 14.1403, -83.5069)
+
+[node name="_Area3D_120586" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -227.666, 14.2105, -87.9637)
+
+[node name="_Area3D_120587" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -269.036, 9.05606, -193.867)
+
+[node name="_Area3D_120588" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -246.702, 9.05606, -194.716)
+
+[node name="_Area3D_120589" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -258.167, 9.05606, -183)
+
+[node name="_Area3D_120590" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -259.063, 9.05606, -202.782)
+
+[node name="_Area3D_120591" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -206.289, 6.91766, -230.204)
+
+[node name="_Area3D_120592" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -210.372, 6.91766, -246.249)
+
+[node name="_Area3D_120593" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -216.181, 6.91766, -234.898)
+
+[node name="_Area3D_120594" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -197.596, 6.91766, -238.722)
+
+[node name="_Area3D_120595" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -244.773, 6.91765, -240.749)
+
+[node name="_Area3D_120596" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -248.911, 6.91765, -228.975)
+
+[node name="_Area3D_120597" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -260.511, 6.91765, -237.703)
+
+[node name="_Area3D_120598" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -252.77, 6.91765, -248.739)
+
+[node name="_Area3D_120599" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -317.379, 9.05609, -239.219)
+
+[node name="_Area3D_120600" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -298.133, 9.05609, -238.883)
+
+[node name="_Area3D_120601" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -306.918, 9.05609, -229.158)
+
+[node name="_Area3D_120602" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -306.591, 9.05609, -247.604)
+
+[node name="_Area3D_120603" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -304.11, 6.91768, -289.543)
+
+[node name="_Area3D_120604" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -292.411, 6.91768, -285.272)
+
+[node name="_Area3D_120605" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -296.55, 6.91768, -299.193)
+
+[node name="_Area3D_120606" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -286.003, 6.91768, -294.736)
+
+[node name="_Area3D_120607" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -210.102, 9.05606, -288.149)
+
+[node name="_Area3D_120608" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -232.781, 9.05606, -287.701)
+
+[node name="_Area3D_120609" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -222.667, 9.05606, -299.482)
+
+[node name="_Area3D_120610" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -218.065, 9.05606, -275.554)
+
+[node name="_Area3D_120617" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -172.902, 9.05604, -338.071)
+
+[node name="_Area3D_120618" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -149.654, 9.05604, -336.531)
+
+[node name="_Area3D_120619" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -164.62, 9.05604, -326.815)
+
+[node name="_Area3D_120620" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -163.269, 9.05604, -347.217)
+
+[node name="_Area3D_120621" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -243.008, 6.9177, -338.367)
+
+[node name="_Area3D_120622" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -227.618, 6.9177, -338.666)
+
+[node name="_Area3D_120623" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -236.507, 6.9177, -330.759)
+
+[node name="_Area3D_120624" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -236.784, 6.9177, -344.972)
+
+[node name="_Area3D_120625" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -282.66, 6.91766, -339.221)
+
+[node name="_Area3D_120626" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -297.29, 6.91766, -338.936)
+
+[node name="_Area3D_120627" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -289.751, 6.91766, -349.806)
+
+[node name="_Area3D_120628" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -289.342, 6.91766, -328.773)
+
+[node name="_Area3D_120629" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -347.284, 6.91764, -339.155)
+
+[node name="_Area3D_120630" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -366.745, 6.91764, -332.007)
+
+[node name="_Area3D_120631" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -359.038, 6.91764, -342.617)
+
+[node name="_Area3D_120632" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -355.48, 6.91764, -327.236)
+
+[node name="_Area3D_120633" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -119.206, 9.05607, -338.667)
+
+[node name="_Area3D_120634" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -119.356, 9.05607, -349.853)
+
+[node name="_Area3D_120635" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -118.716, 9.07758, -362.708)
+
+[node name="_Area3D_120636" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -118.99, 9.07758, -375.143)
+
+[node name="_Area3D_120637" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -172.046, 6.91765, -385.398)
+
+[node name="_Area3D_120638" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -180.811, 6.91765, -376.945)
+
+[node name="_Area3D_120639" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -181.326, 6.91765, -392.368)
+
+[node name="_Area3D_120640" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -189.977, 6.91765, -381.406)
+
+[node name="_Area3D_120641" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -228.262, 6.91769, -384.668)
+
+[node name="_Area3D_120642" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -232.722, 6.91769, -372.535)
+
+[node name="_Area3D_120643" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -233.502, 6.91769, -394.253)
+
+[node name="_Area3D_120644" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -244.382, 6.91769, -381.997)
+
+[node name="_Area3D_120645" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -293.409, 6.91764, -382.839)
+
+[node name="_Area3D_120646" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -309.457, 6.91764, -379.741)
+
+[node name="_Area3D_120647" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -298.188, 6.91764, -373.715)
+
+[node name="_Area3D_120648" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -303.346, 6.91764, -388.257)
+
+[node name="_Area3D_120649" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -349.369, 6.91766, -382.851)
+
+[node name="_Area3D_120650" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -367.344, 6.91766, -384.074)
+
+[node name="_Area3D_120651" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -358.222, 6.91766, -373.149)
+
+[node name="_Area3D_120652" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -356.919, 6.91766, -392.3)
+
+[node name="_Area3D_120653" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -421.712, 11.1074, -391.711)
+
+[node name="_Area3D_120654" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -421.341, 10.8737, -394.995)
+
+[node name="_Area3D_120655" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -419.014, 10.3806, -392.086)
+
+[node name="_Area3D_120656" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -407.208, 6.91764, -326.928)
+
+[node name="_Area3D_120657" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -408.722, 6.91764, -341.792)
+
+[node name="_Area3D_120658" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -397.742, 6.91764, -335.555)
+
+[node name="_Area3D_120659" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -415.683, 6.91764, -333.729)
+
+[node name="_Area3D_120660" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -407.788, 6.91753, -300.777)
+
+[node name="_Area3D_120661" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -408.888, 6.91765, -284.893)
+
+[node name="_Area3D_120662" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -400.16, 6.91765, -293.75)
+
+[node name="_Area3D_120663" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -416.591, 6.91765, -292.511)
+
+[node name="_Area3D_120664" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -395.371, 6.91762, -203.089)
+
+[node name="_Area3D_120665" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -389.325, 6.91762, -192.584)
+
+[node name="_Area3D_120666" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -397.436, 6.91762, -182.689)
+
+[node name="_Area3D_120667" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -403.698, 6.91762, -193.935)
+
+[node name="_Area3D_120668" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -402.579, 9.46268, -150.134)
+
+[node name="_Area3D_120669" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -413.762, 9.46268, -149.513)
+
+[node name="_Area3D_120670" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -427.833, 9.46268, -147.66)
+
+[node name="_Area3D_120671" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -441.96, 9.46268, -146.141)
+
+[node name="_Area3D_120672" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -456.975, 9.46268, -144.884)
+
+[node name="_Area3D_120673" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -555.485, 5.10102, -142.974)
+
+[node name="_Area3D_120674" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -565.383, 4.92518, -132.98)
+
+[node name="_Area3D_120675" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -581.68, 5.08865, -134.705)
+
+[node name="_Area3D_120676" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -584.975, 5.0595, -152.547)
+
+[node name="_Area3D_120677" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -482.788, 9.46267, -142.424)
+
+[node name="_Area3D_120678" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -519.934, 9.46267, -140.36)
+
+[node name="_Area3D_120679" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -508.345, 9.45267, -168.458)
+
+[node name="_Area3D_120680" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -498.603, 9.45215, -109.613)
+
+[node name="_Area3D_120681" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -489.304, 9.46193, -127.354)
+
+[node name="_Area3D_120682" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -511.014, 9.46193, -124.18)
+
+[node name="_Area3D_120683" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -513.815, 9.46193, -156.091)
+
+[node name="_Area3D_120684" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -490.428, 9.46193, -160.176)
+
+[node name="_Area3D_120685" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -543.405, 4.98424, -68.7654)
+
+[node name="_Area3D_120686" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -560.41, 5.08813, -63.0897)
+
+[node name="_Area3D_120687" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -561.868, 5.08101, -44.5801)
+
+[node name="_Area3D_120688" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -541.625, 5.09453, -37.1114)
+
+[node name="_Area3D_120689" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -601.958, 5.05608, -12.1425)
+
+[node name="_Area3D_120690" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -615.149, 4.74946, -18.9737)
+
+[node name="_Area3D_120691" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -632.144, 5.10276, -14.6197)
+
+[node name="_Area3D_120692" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -609.45, 5.07478, 9.17193)
+
+[node name="_Area3D_120693" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -751.889, 4.84142, -12.1526)
+
+[node name="_Area3D_120694" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -749.013, 5.08122, -29.2489)
+
+[node name="_Area3D_120695" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -759.564, 4.84269, -43.0116)
+
+[node name="_Area3D_120696" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -778.126, 5.09924, -31.9173)
+
+[node name="_Area3D_120697" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -828.482, 5.09569, 4.73062)
+
+[node name="_Area3D_120698" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -817.271, 5.0263, 19.9771)
+
+[node name="_Area3D_120699" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -829.946, 5.08834, 36.376)
+
+[node name="_Area3D_120700" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -849.929, 4.91974, 21.5927)
+
+[node name="_Area3D_120701" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -848.372, 4.88493, -40.6579)
+
+[node name="_Area3D_120702" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -831.94, 5.07799, -35.632)
+
+[node name="_Area3D_120703" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -817.834, 4.5927, -52.3052)
+
+[node name="_Area3D_120704" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -831.344, 5.0986, -64.2279)
+
+[node name="_Area3D_120705" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -889.885, 4.96626, -143.303)
+
+[node name="_Area3D_120706" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -894.16, 5.0851, -159.536)
+
+[node name="_Area3D_120707" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -914.259, 5.08736, -162.204)
+
+[node name="_Area3D_120708" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -921.822, 5.09182, -142.691)
+
+[node name="_Area3D_120709" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -891.131, 4.61456, -226.137)
+
+[node name="_Area3D_120710" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -873.101, 5.10086, -230.111)
+
+[node name="_Area3D_120711" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -900.021, 5.07766, -246.758)
+
+[node name="_Area3D_120712" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -886.264, 4.85955, -260.302)
+
+[node name="_Area3D_120713" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -846.829, 5.10099, -280.36)
+
+[node name="_Area3D_120714" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -851.678, 4.66642, -297.496)
+
+[node name="_Area3D_120715" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -835.952, 5.07997, -308.377)
+
+[node name="_Area3D_120716" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -819.995, 4.87835, -293.399)
+
+[node name="_Area3D_120717" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -704.198, 5.10146, -327.202)
+
+[node name="_Area3D_120718" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -685.31, 4.64897, -331.861)
+
+[node name="_Area3D_120719" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -674.274, 5.07649, -311.09)
+
+[node name="_Area3D_120720" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -695.827, 4.97657, -297.941)
+
+[node name="_Area3D_120721" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -663.473, 5.07553, -367.153)
+
+[node name="_Area3D_120722" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -642.8, 4.92958, -379.53)
+
+[node name="_Area3D_120723" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -652.676, 4.57946, -346.177)
+
+[node name="_Area3D_120724" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -627.265, 5.09524, -355.892)
+
+[node name="_Area3D_120725" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -621.868, 4.85783, -284.574)
+
+[node name="_Area3D_120726" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -637.515, 5.07654, -270.988)
+
+[node name="_Area3D_120727" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -628.004, 4.57181, -250.291)
+
+[node name="_Area3D_120728" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -603.869, 5.09649, -259.157)
+
+[node name="_Area3D_120729" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -562.235, 5.10284, -255.983)
+
+[node name="_Area3D_120730" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -540.283, 4.59561, -259.89)
+
+[node name="_Area3D_120731" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -529.818, 5.07638, -239.188)
+
+[node name="_Area3D_120732" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -549.197, 4.93206, -226.547)
+
+[node name="_Area3D_120733" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -409.089, 6.9176, -105.4)
+
+[node name="_Area3D_120734" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -409.54, 6.9176, -88.8042)
+
+[node name="_Area3D_120735" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -400.48, 6.9176, -94.5531)
+
+[node name="_Area3D_120736" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -418.521, 6.9176, -97.0407)
+
+[node name="_Area3D_120737" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -420.165, 10.6874, -34.3042)
+
+[node name="_Area3D_120738" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -415.868, 10.4753, -37.0362)
+
+[node name="_Area3D_120739" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -421.466, 10.5271, -39.1493)
+
+[node name="_Area3D_120740" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -357.873, 9.05607, -127.606)
+
+[node name="_Area3D_120741" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -359.18, 9.05607, -150.449)
+
+[node name="_Area3D_120742" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -372.458, 9.05607, -139.858)
+
+[node name="_Area3D_120743" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -345.752, 9.05607, -141.259)
+
+[node name="_Area3D_120744" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -118.612, 9.05605, -127.781)
+
+[node name="_Area3D_120745" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -119.326, 9.05605, -152.221)
+
+[node name="_Area3D_120746" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -133.078, 9.05605, -143.053)
+
+[node name="_Area3D_120747" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -107.88, 9.05605, -141.715)
+
+[node name="_Area3D_120748" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -180.262, 6.91765, -45.9456)
+
+[node name="_Area3D_120749" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -196.033, 6.91765, -46.7289)
+
+[node name="_Area3D_120750" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -190.087, 6.91765, -39.5154)
+
+[node name="_Area3D_120751" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -187.601, 6.91765, -53.3824)
+
+[node name="_Area3D_120752" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -245.967, 9.05608, -48.1603)
+
+[node name="_Area3D_120753" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -272.995, 9.05608, -47.4454)
+
+[node name="_Area3D_120754" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -258.81, 9.05608, -37.5502)
+
+[node name="_Area3D_120755" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -259.282, 9.05608, -55.3841)
+
+[node name="_Area3D_120756" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -262.326, 9.05608, -140.923)
+
+[node name="_Area3D_120757" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -263.169, 9.05608, -126.07)
+
+[node name="_Area3D_120758" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -270.223, 9.05608, -135.238)
+
+[node name="_Area3D_120759" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -255.141, 9.05608, -135.881)
+
+[node name="_Area3D_120760" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -319.711, 12.2154, -38.9783)
+
+[node name="_Area3D_120761" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -322.496, 11.4737, -42.3503)
+
+[node name="_Area3D_120762" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -316.699, 11.8448, -41.0891)
+
+[node name="_Area3D_120763" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -112.943, 9.07729, -45.2912)
+
+[node name="_Area3D_120764" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -113.398, 9.07729, -54.9904)
+
+[node name="_Area3D_120765" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -120.626, 9.07729, -48.1698)
+
+[node name="_Area3D_120766" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -101.619, 9.07729, -50.6169)
+
+[node name="_Area3D_120767" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -38.376, 9.07675, -43.7382)
+
+[node name="_Area3D_120768" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -21.8604, 9.07675, -39.6372)
+
+[node name="_Area3D_120769" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -28.8027, 9.07675, -49.1343)
+
+[node name="_Area3D_120770" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -31.9196, 9.07675, -36.6116)
+
+[node name="_Area3D_120771" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -26.5476, 10.104, -83.8074)
+
+[node name="_Area3D_120772" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -22.0672, 9.22586, -84.5863)
+
+[node name="_Area3D_120773" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -24.4622, 8.41594, -81.6227)
+
+[node name="_Area3D_120774" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -15.6128, 9.07745, -147.869)
+
+[node name="_Area3D_120775" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 0.567185, 9.077, -146.075)
+
+[node name="_Area3D_120776" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -9.15886, 9.077, -147.158)
+
+[node name="_Area3D_120777" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 16.3105, 9.05579, -145.455)
+
+[node name="_Area3D_120778" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 31.0193, 9.05579, -144.703)
+
+[node name="_Area3D_120779" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 48.8504, 9.05579, -143.784)
+
+[node name="_Area3D_120780" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 66.479, 9.05579, -142.875)
+
+[node name="_Area3D_120781" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 13.5758, 14.3443, -201.57)
+
+[node name="_Area3D_120782" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 23.5723, 13.1521, -199.272)
+
+[node name="_Area3D_120783" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 17.4909, 13.9113, -197.371)
+
+[node name="_Area3D_120784" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 26.7225, 12.532, -180.642)
+
+[node name="_Area3D_120785" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 22.8762, 12.3499, -183.559)
+
+[node name="_Area3D_120786" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 27.8114, 11.4065, -183.637)
+
+[node name="_Area3D_120787" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 126.26, 9.0561, -191.007)
+
+[node name="_Area3D_120788" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 105.749, 9.0561, -190.453)
+
+[node name="_Area3D_120789" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 114.825, 9.0561, -197.876)
+
+[node name="_Area3D_120790" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 115.24, 9.0561, -183.01)
+
+[node name="_Area3D_120791" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 80.2824, 4.92426, -269.285)
+
+[node name="_Area3D_120792" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 95.5387, 5.07999, -260.237)
+
+[node name="_Area3D_120793" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 109.468, 4.73197, -275.02)
+
+[node name="_Area3D_120794" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 94.7857, 5.09948, -291.937)
+
+[node name="_Area3D_120795" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 130.78, 6.91647, -246.542)
+
+[node name="_Area3D_120796" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 121.718, 6.91647, -245.416)
+
+[node name="_Area3D_120797" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 116.087, 6.91647, -231.89)
+
+[node name="_Area3D_120798" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 74.9288, 9.05563, -321.612)
+
+[node name="_Area3D_120799" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 73.6683, 9.05563, -347.305)
+
+[node name="_Area3D_120800" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 62.8242, 9.05563, -336.85)
+
+[node name="_Area3D_120801" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 83.6264, 9.05563, -337.075)
+
+[node name="_Area3D_120802" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 122.493, 9.05563, -337.031)
+
+[node name="_Area3D_120803" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 122.045, 9.05563, -346.884)
+
+[node name="_Area3D_120804" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 121.496, 9.05563, -360.647)
+
+[node name="_Area3D_120805" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 120.678, 9.05563, -374.832)
+
+[node name="_Area3D_120806" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 208.788, 8.27629, -394.314)
+
+[node name="_Area3D_120807" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 212.392, 8.12194, -397.949)
+
+[node name="_Area3D_120808" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 209.974, 8.34014, -391.025)
+
+[node name="_Area3D_120809" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 229.096, 8.43448, -396.628)
+
+[node name="_Area3D_120810" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 223.212, 8.00096, -396.607)
+
+[node name="_Area3D_120811" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 226.372, 7.98068, -392.623)
+
+[node name="_Area3D_120812" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -42.0268, 11.8245, -424.841)
+
+[node name="_Area3D_120813" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -39.9475, 12.1738, -429.808)
+
+[node name="_Area3D_120814" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -38.9247, 12.1186, -425.742)
+
+[node name="_Area3D_120815" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -18.9734, 14.0342, -433.447)
+
+[node name="_Area3D_120816" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -25.304, 12.0505, -436.263)
+
+[node name="_Area3D_120817" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -22.9532, 11.3842, -431.31)
+
+[node name="_Area3D_120818" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -109.93, 9.70386, -435.84)
+
+[node name="_Area3D_120819" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -113.82, 10.0444, -436.094)
+
+[node name="_Area3D_120820" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -125.61, 12.7275, -423.793)
+
+[node name="_Area3D_120821" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -121.201, 12.3961, -422.621)
+
+[node name="_Area3D_120822" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -123.84, 11.697, -427.609)
+
+[node name="_Area3D_120823" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -112.96, 9.81782, -438.276)
+
+[node name="_Area3D_120824" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 150.885, 9.05607, -287.379)
+
+[node name="_Area3D_120825" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 176.526, 9.05607, -287.267)
+
+[node name="_Area3D_120826" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 166.462, 9.05607, -300.332)
+
+[node name="_Area3D_120827" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 164.689, 9.05607, -271.773)
+
+[node name="_Area3D_120828" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 180.028, 6.91767, -234.889)
+
+[node name="_Area3D_120829" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 196.438, 6.91767, -238.825)
+
+[node name="_Area3D_120830" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 186.692, 6.91767, -244.008)
+
+[node name="_Area3D_120831" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 190.1, 6.91767, -229.843)
+
+[node name="_Area3D_120832" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 225.072, 9.30617, -200.054)
+
+[node name="_Area3D_120833" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 229.117, 9.8878, -196.499)
+
+[node name="_Area3D_120834" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 228.082, 9.75369, -200.409)
+
+[node name="_Area3D_120835" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 224.137, 9.56061, -183.091)
+
+[node name="_Area3D_120836" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 227.17, 9.97978, -181.607)
+
+[node name="_Area3D_120837" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 221.8, 9.56608, -181.522)
+
+[node name="_Area3D_120838" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 187.253, 6.91763, -143.159)
+
+[node name="_Area3D_120839" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 180.369, 6.91763, -134.707)
+
+[node name="_Area3D_120840" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 176.664, 6.91763, -149.134)
+
+[node name="_Area3D_120841" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 169.815, 6.91763, -139.416)
+
+[node name="_Area3D_120842" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 246.398, 9.05608, -142.833)
+
+[node name="_Area3D_120843" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 269.948, 9.05608, -143.135)
+
+[node name="_Area3D_120844" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 261.169, 9.05608, -156.663)
+
+[node name="_Area3D_120845" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 261.28, 9.05608, -133.862)
+
+[node name="_Area3D_120846" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 264.324, 10.9715, -224.481)
+
+[node name="_Area3D_120847" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 264.813, 9.05606, -248.709)
+
+[node name="_Area3D_120848" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 271.603, 9.05606, -237.921)
+
+[node name="_Area3D_120849" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 256.026, 9.05606, -236.626)
+
+[node name="_Area3D_120850" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 301.175, 6.91765, -285.438)
+
+[node name="_Area3D_120851" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 321.625, 6.91765, -290.47)
+
+[node name="_Area3D_120852" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 311.761, 6.91765, -293.44)
+
+[node name="_Area3D_120853" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 315.612, 6.91765, -279.587)
+
+[node name="_Area3D_120854" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 352.617, 6.91767, -308.162)
+
+[node name="_Area3D_120855" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 366.793, 6.91767, -307.892)
+
+[node name="_Area3D_120856" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 359.716, 6.91767, -300.277)
+
+[node name="_Area3D_120857" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 356.196, 6.91767, -315.071)
+
+[node name="_Area3D_120858" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 322.279, 6.91762, -386.116)
+
+[node name="_Area3D_120859" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 308.251, 6.91762, -381.161)
+
+[node name="_Area3D_120860" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 319.856, 6.91762, -376.848)
+
+[node name="_Area3D_120861" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 313.865, 6.91762, -388.44)
+
+[node name="_Area3D_120862" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 254.529, 6.91713, -375.033)
+
+[node name="_Area3D_120863" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 263.693, 6.91713, -378.383)
+
+[node name="_Area3D_120864" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 270.885, 6.91713, -388.039)
+
+[node name="_Area3D_120865" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 415.12, 6.91766, -387.521)
+
+[node name="_Area3D_120866" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 412.587, 6.91766, -377.755)
+
+[node name="_Area3D_120867" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 403.81, 6.91766, -388.18)
+
+[node name="_Area3D_120868" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 401.597, 6.91766, -375.013)
+
+[node name="_Area3D_120869" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 402.915, 6.91768, -350.524)
+
+[node name="_Area3D_120870" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 408.024, 6.91768, -331.324)
+
+[node name="_Area3D_120871" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 415.026, 6.91768, -342.217)
+
+[node name="_Area3D_120872" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 402.217, 6.91768, -335.852)
+
+[node name="_Area3D_120873" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 313.451, 9.056, -236.347)
+
+[node name="_Area3D_120874" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 324.645, 9.056, -236.872)
+
+[node name="_Area3D_120875" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 337.115, 9.056, -237.458)
+
+[node name="_Area3D_120876" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 351.307, 9.056, -238.124)
+
+[node name="_Area3D_120877" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 315.133, 6.91766, -181.901)
+
+[node name="_Area3D_120878" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 320.342, 6.91766, -172.668)
+
+[node name="_Area3D_120879" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 307.714, 6.91766, -171.594)
+
+[node name="_Area3D_120880" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 314.501, 6.91766, -160.557)
+
+[node name="_Area3D_120881" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 309.022, 6.91762, -124.851)
+
+[node name="_Area3D_120882" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 315.878, 6.91762, -118.392)
+
+[node name="_Area3D_120883" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 308.235, 6.91762, -109.093)
+
+[node name="_Area3D_120884" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 299.539, 6.91762, -118.175)
+
+[node name="_Area3D_120885" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 81.3089, 10.9495, -394.21)
+
+[node name="_Area3D_120886" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 83.6332, 10.1672, -388.259)
+
+[node name="_Area3D_120887" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 79.068, 10.6666, -390.513)
+
+[node name="_Area3D_120888" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 14.326, 9.05609, -386.419)
+
+[node name="_Area3D_120889" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 1.84135, 9.05609, -386.229)
+
+[node name="_Area3D_120890" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -20.5454, 9.05609, -385.923)
+
+[node name="_Area3D_120891" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -10.7893, 9.05609, -385.09)
+
+[node name="_Area3D_120892" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 2.09665, 6.9177, -337.626)
+
+[node name="_Area3D_120893" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -15.2679, 6.9177, -333.582)
+
+[node name="_Area3D_120894" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -4.86459, 6.9177, -329.275)
+
+[node name="_Area3D_120895" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -8.51882, 6.9177, -343.199)
+
+[node name="_Area3D_120896" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 27.967, 9.05599, -386.089)
+
+[node name="_Area3D_120897" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 41.9802, 9.05599, -385.275)
+
+[node name="_Area3D_120898" parent="." instance=ExtResource("1_vpmat")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 47.5736, 9.05599, -380.522)
+
+[node name="_Area3D_267186" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -172.415, 21.3207, -190.114)
+
+[node name="_Area3D_267187" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -162.244, 6.91708, -238.712)
+
+[node name="_Area3D_267188" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -360.733, 6.91763, -269.459)
+
+[node name="_Area3D_267189" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -335.392, 6.91765, -190.815)
+
+[node name="_Area3D_267190" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -714.162, 16.8122, 31.2788)
+
+[node name="_Area3D_267191" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -832.358, 16.7305, -121.711)
+
+[node name="_Area3D_267192" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -751.632, 16.8917, -301.698)
+
+[node name="_Area3D_267193" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -323.339, 21.4605, -143.024)
+
+[node name="_Area3D_267194" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, -313.096, 9.05615, -96.1322)
+
+[node name="_Area3D_267196" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 167.029, 23.8303, -324.579)
+
+[node name="_Area3D_267197" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 127.993, 9.056, -96.0894)
+
+[node name="_Area3D_267199" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 221.562, 9.05605, -96.5807)
+
+[node name="_Area3D_267200" parent="." instance=ExtResource("2_j63pk")]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 22.8609, 9.05607, -288.431)

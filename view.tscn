@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdxx4cx73fwgt"]
+
+[ext_resource type="Script" path="res://scripts/view.gd" id="1_c20ra"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_24x6x"]
+custom_solver_bias = 1.0
+margin = 0.0
+radius = 4.631
+
+[node name="View" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.08252, 0)
+script = ExtResource("1_c20ra")
+
+[node name="CameraBody" type="RigidBody3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10)
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+mass = 0.235
+gravity_scale = 0.0
+lock_rotation = true
+continuous_cd = true
+linear_damp = 2.235
+angular_damp = 1.18
+
+[node name="Camera" type="Camera3D" parent="CameraBody"]
+fov = 65.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CameraBody"]
+shape = SubResource("SphereShape3D_24x6x")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.837, 4.77)
+light_color = Color(0.717691, 1, 0.823537, 1)
+light_energy = 0.06
+shadow_blur = 2.815
+omni_range = 14.345
+omni_attenuation = -0.075

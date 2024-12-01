@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bfsa7fgitinmh"
+path="res://.godot/imported/Waltz of Memories.ogg-9198e9121fc68797ec8dc94fb6e74812.oggvorbisstr"
+
+[deps]
+
+source_file="res://Waltz of Memories.ogg"
+dest_files=["res://.godot/imported/Waltz of Memories.ogg-9198e9121fc68797ec8dc94fb6e74812.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcwp0m4er7emj"]
+
+[ext_resource type="PackedScene" uid="uid://d8kitf4pq4lj" path="res://uvliddell.glb" id="1_d7f1h"]
+
+[node name="uvliddell" instance=ExtResource("1_d7f1h")]

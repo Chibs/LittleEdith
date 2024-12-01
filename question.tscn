@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=3 uid="uid://dpjlihxu567fp"]
+
+[ext_resource type="Script" path="res://instruction.gd" id="1_6bne8"]
+[ext_resource type="PackedScene" uid="uid://cnmqacgj44yjx" path="res://models/questionmark.glb" id="3_t8ocf"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_bfpox"]
+radius = 3.146
+
+[sub_resource type="Gradient" id="Gradient_xqrhv"]
+offsets = PackedFloat32Array(0.333333, 0.557471, 1)
+colors = PackedColorArray(0.89, 0.968833, 1, 0.286275, 0.958009, 1, 0.979183, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_7hvsi"]
+gradient = SubResource("Gradient_xqrhv")
+width = 32
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.6, 0)
+
+[sub_resource type="Gradient" id="Gradient_esi50"]
+offsets = PackedFloat32Array(0, 0.0238095, 1)
+colors = PackedColorArray(0.901042, 0.809922, 0.894195, 1, 0.956019, 0.78146, 0.790975, 1, 1, 0.95177, 0.941769, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_1nh74"]
+noise_type = 4
+frequency = 0.1005
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_cxe4r"]
+color_ramp = SubResource("Gradient_esi50")
+noise = SubResource("FastNoiseLite_1nh74")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xv3aj"]
+albedo_color = Color(0.734375, 0.58138, 0.675395, 1)
+albedo_texture = SubResource("NoiseTexture2D_cxe4r")
+
+[node name="Question" type="Area3D"]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 0, 0, 0)
+script = ExtResource("1_6bne8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, -2.98023e-08, 1.49012e-08, 0, 1, -5.96046e-08, 3.72529e-09, 0, 1, 0, 0, 0)
+shape = SubResource("SphereShape3D_bfpox")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 1.06581e-14, 0, -5.96046e-08, 1, -1.49012e-07, -2.98023e-08, -2.98023e-08, 1, 0.00129907, 1.90513, -0.0168205)
+cast_shadow = 0
+modulate = Color(0.203435, 0.191974, 0.247396, 0.164706)
+pixel_size = 0.2495
+billboard = 2
+double_sided = false
+texture = SubResource("GradientTexture2D_7hvsi")
+
+[node name="mesh" type="Node3D" parent="."]
+transform = Transform3D(0.56, 0, 0, 0, 0.56, 0, 0, 0, 0.56, 0, 0, 0)
+
+[node name="questionmark" parent="mesh" instance=ExtResource("3_t8ocf")]
+transform = Transform3D(0.561, 1.77087e-15, 2.85664e-29, -1.77087e-15, 0.561, 3.01654e-15, -1.90442e-29, -3.01654e-15, 0.561, 0, 0, 0)
+
+[node name="Cube" parent="mesh/questionmark" index="0"]
+material_override = SubResource("StandardMaterial3D_xv3aj")
+
+[node name="Cube_001" parent="mesh/questionmark" index="1"]
+material_override = SubResource("StandardMaterial3D_xv3aj")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+
+[editable path="mesh/questionmark"]
