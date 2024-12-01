@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dhpg0agt4g56l"
+path="res://.godot/imported/Maze of My Mind.ogg-463e971efad951947adaa15774813bd5.oggvorbisstr"
+
+[deps]
+
+source_file="res://music/Maze of My Mind.ogg"
+dest_files=["res://.godot/imported/Maze of My Mind.ogg-463e971efad951947adaa15774813bd5.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

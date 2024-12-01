@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dyt81bva2m5w3"
+path="res://.godot/imported/Goodnight Sweetie.ogg-d03bc7c1928c94dce90a457b4caf854f.oggvorbisstr"
+
+[deps]
+
+source_file="res://music/Goodnight Sweetie.ogg"
+dest_files=["res://.godot/imported/Goodnight Sweetie.ogg-d03bc7c1928c94dce90a457b4caf854f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

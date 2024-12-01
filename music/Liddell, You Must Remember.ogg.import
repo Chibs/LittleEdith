@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cow0wf6mq47gs"
+path="res://.godot/imported/Liddell, You Must Remember.ogg-9d54f2f8e2fde5aab5743c901ddb5601.oggvorbisstr"
+
+[deps]
+
+source_file="res://music/Liddell, You Must Remember.ogg"
+dest_files=["res://.godot/imported/Liddell, You Must Remember.ogg-9d54f2f8e2fde5aab5743c901ddb5601.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

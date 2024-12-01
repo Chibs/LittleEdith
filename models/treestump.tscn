@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=4 uid="uid://dsl11eytt0281"]
+
+[ext_resource type="Texture2D" uid="uid://r4peb7lovuce" path="res://models/textures/Woodtexture_gamejam2024_test1.png" id="1_0jikc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_morfm"]
+albedo_texture = ExtResource("1_0jikc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ont5c"]
+resource_name = "M_Wood"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
+roughness = 0.2
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5geth"]
+_surfaces = [{
+"aabb": AABB(-0.825173, -0.71132, -1.0551, 1.65035, 1.42264, 2.1102),
+"format": 34359742465,
+"index_count": 102,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQAAwACAAQABAAHAAMACAAJAAoACgALAAgABgAAAAMAAwAHAAYADAABAAAAAAANAAwADgAPAAkACQAIAA4ABgAFABAAEAARAAYAEQANAAAAAAAGABEAEQASAA0AEgAPAA4AEQAQABIADQASAAwADwAQAAUABQAJAA8ACQAFAAQABAAKAAkACgAEAAIAAgALAAoACAALAAIAAgABAAgADgAIAAEAAQAMAA4ADAASAA4AEAAPABIA"),
+"name": "M_Wood",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 19,
+"vertex_data": PackedByteArray("uHYCv7KSjL6JcOA+4ISDPbKSjL4BWwc/4ISDPQ4ZNr+dQTc/VF0yvw4ZNr/hHiA/4ISDvQ4ZNr8POG2/4ISDvbKSjL5zUT2/8Fcjv7KSjL4j9Du/jD5Tvw4ZNr+/2mu/8lcjP7KSjL5mNF4/8lcjP7KSjL5oNF6/jD5TPw4ZNr+BDYe/jD5TPw4ZNr+BDYc/4ISDPWW00D4XHqw+0IKivg4ZNj8XHqw+do8QPwz1Uj4XHqw+do8QPwz1Uj7zqdq+4ISDPWW00D7zqdq+0IKivg4ZNj/zqdq+wISDPRh3VT5wLzq9")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1rp7n"]
+resource_name = "Treestump"
+_surfaces = [{
+"aabb": AABB(-0.825173, -0.71132, -1.0551, 1.65035, 1.42264, 2.1102),
+"attribute_data": PackedByteArray("5EYJP83vNz/qKQA/xiE3P/x+/j43kD4/yCYLPwa3Pz9Y9zo+j+Y4P0CoPD4VcjE/uqBgPpQKMj+Gdmo+mqg5P5+cJD8Yk0M+IfglP1RUcz66OQw/aMJqPmJeDD/kCDs+Hpw7P8i8VD4v1FY/iMpTPtPTWT94fXE+n704P9ijcj5POWQ/Dv2jPvC1dj+02KI+Uop5P/bTsT5aNWE/+NKyPkDbAT+nFCw/WXEIP00xKD/W4UM/SPU1PnTZTz/UijU+bmM4PuiGJT8mX1I+730hPxkPaT8efYM+yAZ1P0Bdgz56JKA+EKWEPhAGZj5I6U4+CLOfPsAuEz54uh8+djSFPtDXHj58eRQ+SNt0PjJ+hT6483M+sJ4SPjbiFz6tuCc/6r0PPmjAMT+NuAI+5BA5PzskCj8kQJE+pjorP8aUkT5yY+s+gjg4P7mK5D4zdT8/SlzzPtnLLT8="),
+"format": 34359742487,
+"index_count": 102,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAABAAAAAAAVABQAFgAXAA0ADQAMABYABgAFABgAGAAZAAYAGgAbABEAEQAQABoAHAAdAB4AHQAfACAAHAAhAB0AHgAdACIAIwAYAAUABQAkACMAJAAFAAQABAAlACQAJgAKAAkACQAnACYAKAApAAIAAgABACgAKgAoAAEAAQAUACoAIgAdACAAIQAfAB0A"),
+"material": SubResource("StandardMaterial3D_ont5c"),
+"name": "M_Wood",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 43,
+"vertex_data": PackedByteArray("uHYCv7KSjL6JcOA+4ISDPbKSjL4BWwc/4ISDPQ4ZNr+dQTc/VF0yvw4ZNr/hHiA/4ISDvQ4ZNr8POG2/4ISDvbKSjL5zUT2/8Fcjv7KSjL4j9Du/jD5Tvw4ZNr+/2mu/VF0yvw4ZNr/hHiA/4ISDPQ4ZNr+dQTc/4ISDvQ4ZNr8POG2/jD5Tvw4ZNr+/2mu/8lcjP7KSjL5mNF4/8lcjP7KSjL5oNF6/jD5TPw4ZNr+BDYe/jD5TPw4ZNr+BDYc/8Fcjv7KSjL4j9Du/uHYCv7KSjL6JcOA+VF0yvw4ZNr/hHiA/jD5Tvw4ZNr+/2mu/4ISDPWW00D4XHqw+0IKivg4ZNj8XHqw+do8QPwz1Uj4XHqw+do8QPwz1Uj7zqdq+4ISDPWW00D7zqdq+0IKivg4ZNj/zqdq+0IKivg4ZNj/zqdq+0IKivg4ZNj8XHqw+0IKivg4ZNj/zqdq+wISDPRh3VT5wLzq90IKivg4ZNj8XHqw+do8QPwz1Uj7zqdq+do8QPwz1Uj4XHqw+4ISDPWW00D7zqdq+4ISDPWW00D4XHqw+do8QPwz1Uj7zqdq+8lcjP7KSjL5oNF6/jD5TPw4ZNr+BDYe/jD5TPw4ZNr+BDYe/jD5TPw4ZNr+BDYc/8lcjP7KSjL5mNF4/jD5TPw4ZNr+BDYc/do8QPwz1Uj4XHqw+O3jXnKcKhjQucCKfWwVyMiFnnZxmABtQHXXBpHAI8jLsIhb4kw0LwTIno/8SClLDbN3M+0kJlsVIJkn/swppw/9/AABcf/+//38AAFx//7//fwAAXH//v/9/AABcf/+/d92Hovj+L4Db3SOi+P4vgJvZY6b8/jaAm9ljpvz+NoDmJaieoIjavjAlCJ5iiLq+8isBpMWJqr7yKwGkxomrvjd4F5xwCyE0GnwEk/8MTzYK7/OQ6P4UgArv85Do/hSA1dlc+lkKqcac4dT2Ygtkyf8ej5g+h8y+/x6PmDmHw75Qwjm3bEUg4wqs9NPLK0DWxMiuvZBFAeMBjOTkow1Kxxqb/fNvDRTHO6RLvP0vjtizw8Lb3i8P2LrN2/+/ClLD5CdN+KoMisBpILbyvhIUv/9/AABcf/+//38AAFx//7/xY7GdXQQqU2ZcX5Y0BzFXx3Eeq2oEUTI=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_5geth")
+
+[node name="Treestump" type="CSGMesh3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3881, 0.71132, 0.0454554)
+material_override = SubResource("StandardMaterial3D_morfm")
+use_collision = true
+mesh = SubResource("ArrayMesh_1rp7n")
