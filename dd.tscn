@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0t3353o0o4kn"]
+
+[ext_resource type="PackedScene" uid="uid://dktomyahxtpx4" path="res://teuntitled.glb" id="1_25v7x"]
+
+[node name="teuntitled" instance=ExtResource("1_25v7x")]
+
+[node name="Armature" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/3/position = Vector3(0.169475, 0.136475, 0.00547497)
+bones/3/rotation = Quaternion(0.00147497, 0.032475, 0.999475, -0.122525)
+bones/4/rotation = Quaternion(-0.239525, 0.00147497, -0.064525, 0.994475)
+bones/5/rotation = Quaternion(-0.159525, -0.061525, 0.058475, 0.981475)
+bones/18/position = Vector3(-0.169525, 0.201475, 0.00547497)
+bones/18/rotation = Quaternion(-0.00152503, -0.247525, 0.999475, 0.022475)
+bones/33/rotation = Quaternion(0.215475, 0.300475, 0.035475, 1.21648)
+bones/34/rotation = Quaternion(0.081475, 0.050475, 0.000474975, 0.999475)
+bones/35/rotation = Quaternion(-0.121525, 0.055475, 0.000474975, 0.992475)
+bones/37/rotation = Quaternion(-0.134525, 0.075475, 0.000474975, 1.00048)
+bones/50/rotation = Quaternion(0.680475, 0.00147497, 0.00347497, 0.993475)
+bones/51/rotation = Quaternion(0.316475, -0.00152503, 0.324475, 1.00048)
+bones/59/rotation = Quaternion(0.540475, -0.00152503, -0.00352503, 0.993475)
+bones/62/rotation = Quaternion(0.521475, 0.00147497, -0.419525, 1.00048)

@@ -1,0 +1,96 @@
+[gd_scene load_steps=16 format=3 uid="uid://c5ks05wgp3wt7"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_p60bb"]
+[ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_qt6g2"]
+[ext_resource type="PackedScene" uid="uid://m3db4n3sq77i" path="res://gui.tscn" id="2_uo28c"]
+[ext_resource type="PackedScene" uid="uid://cdxx4cx73fwgt" path="res://view.tscn" id="3_c6gyk"]
+[ext_resource type="Texture2D" uid="uid://cnlyg0m3mfukt" path="res://sprites/floor_grid.png" id="4_rmbql"]
+[ext_resource type="AudioStream" uid="uid://djy1iplr628ud" path="res://2.mp3" id="10_81on4"]
+[ext_resource type="PackedScene" uid="uid://c0syj7pvu6rs0" path="res://shadow.tscn" id="11_o651d"]
+[ext_resource type="Script" path="res://pickups.gd" id="12_vjswc"]
+[ext_resource type="PackedScene" uid="uid://cnvcyx1l311dp" path="res://water.tscn" id="12_y322o"]
+[ext_resource type="PackedScene" uid="uid://dlumwlrdf8b1r" path="res://models/enviroment_kit_2.tscn" id="13_3ieba"]
+[ext_resource type="PackedScene" uid="uid://md87khrvp3p3" path="res://models/lilypad.tscn" id="14_dnlym"]
+[ext_resource type="PackedScene" uid="uid://cq73gd8dhu808" path="res://models/fish.tscn" id="15_m883m"]
+
+[sub_resource type="Environment" id="Environment_2ajxe"]
+background_mode = 1
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ju228"]
+size = Vector2(1000, 1000)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0vgs0"]
+albedo_texture = ExtResource("4_rmbql")
+uv1_scale = Vector3(200, 200, 200)
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_p60bb")
+
+[node name="GUI" parent="." instance=ExtResource("2_uo28c")]
+unique_name_in_owner = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_2ajxe")
+
+[node name="Player" parent="." instance=ExtResource("2_qt6g2")]
+unique_name_in_owner = true
+transform = Transform3D(0.751863, 0, -0.659319, 0, 1, 0, 0.659319, 0, 0.751863, 0, 1.34222, 0)
+slide_on_ceiling = false
+wall_min_slide_angle = 0.401426
+floor_constant_speed = true
+floor_max_angle = 1.11701
+floor_snap_length = 0.35
+
+[node name="View" parent="." instance=ExtResource("3_c6gyk")]
+unique_name_in_owner = true
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3804, 0)
+use_collision = true
+mesh = SubResource("PlaneMesh_ju228")
+material = SubResource("StandardMaterial3D_0vgs0")
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("10_81on4")
+volume_db = -30.086
+autoplay = true
+parameters/looping = true
+
+[node name="BackgroundAmbience" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+volume_db = -35.446
+
+[node name="Shadow" parent="." instance=ExtResource("11_o651d")]
+unique_name_in_owner = true
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.2544, 25.5785, 30.4488)
+light_energy = 28.24
+omni_range = 80.71
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.2345, 25.5785, -30.6137)
+light_energy = 28.24
+omni_range = 80.71
+
+[node name="Pickups" type="Node3D" parent="."]
+unique_name_in_owner = true
+script = ExtResource("12_vjswc")
+
+[node name="Node3D" parent="." instance=ExtResource("13_3ieba")]
+transform = Transform3D(3.40311, 0, 0, 0, 3.40311, 0, 0, 0, 3.40311, -58.8911, 6.45643, -88.3711)
+
+[node name="lilpadplaceholder" parent="." instance=ExtResource("14_dnlym")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.5609, 1.2564, 15.189)
+
+[node name="lilpadplaceholder2" parent="." instance=ExtResource("14_dnlym")]
+transform = Transform3D(-0.861806, 0, 0.507238, 0, 1, 0, -0.507238, 0, -0.861806, -97.1372, 1.2564, 23.4816)
+
+[node name="lilpadplaceholder3" parent="." instance=ExtResource("14_dnlym")]
+transform = Transform3D(0.363641, 0, 0.931539, 0, 1, 0, -0.931539, 0, 0.363641, -93.1525, 1.2564, -33.4561)
+
+[node name="Fish" parent="." instance=ExtResource("15_m883m")]
+transform = Transform3D(0.844262, 0, 0.53593, 0, 1, 0, -0.53593, 0, 0.844262, -63.1242, 3.55077, 33.4251)
+
+[node name="Water" parent="." instance=ExtResource("12_y322o")]

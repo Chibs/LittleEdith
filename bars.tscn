@@ -1,0 +1,65 @@
+[gd_scene load_steps=7 format=3 uid="uid://rjdqd4o0wfca"]
+
+[sub_resource type="Gradient" id="Gradient_wlar0"]
+offsets = PackedFloat32Array(0, 0.212121, 0.371212, 0.439394, 0.598485, 0.734848, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.82, 0.82, 0.82, 1, 0.712121, 0.712121, 0.712121, 1, 0.375, 0.36375, 0.36375, 1, 0.73, 0.436297, 0.2117, 1, 0.62, 0.584867, 0.558, 1, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_l4sfa"]
+frequency = 0.017
+fractal_type = 0
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_a3a6d"]
+width = 62
+in_3d_space = true
+seamless = true
+color_ramp = SubResource("Gradient_wlar0")
+noise = SubResource("FastNoiseLite_l4sfa")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_15ogi"]
+albedo_color = Color(0.989021, 1, 0.988354, 1)
+albedo_texture = SubResource("NoiseTexture2D_a3a6d")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_647db"]
+material = SubResource("StandardMaterial3D_15ogi")
+top_radius = 0.0
+bottom_radius = 0.25
+height = 9.795
+radial_segments = 4
+rings = 0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2o0hd"]
+size = Vector3(6.545, 7.355, 0.625)
+
+[node name="Bars" type="StaticBody3D"]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.2, 3.51648, 9.53674e-07)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4, 3.51648, 1.43051e-06)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.8, 3.51648, 1.43051e-06)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.9, 0, 0, 0, 1, 5.6, 3.51648, 1.43051e-06)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.9, 0, 0, 0, 1, 2.4, 3.51648, 2.38419e-06)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 0.7, 0, -8.74228e-08, 0, -1, 1.60001, 3.51648, 3.33786e-06)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 0.7, 0, -1, 0, -4.37114e-08, 6.40001, 3.51648, 4.29153e-06)
+mesh = SubResource("CylinderMesh_647db")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.21978, 4.76837e-07)
+shape = SubResource("BoxShape3D_2o0hd")

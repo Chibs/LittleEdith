@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://blkq3u6vls25p"]
+
+[ext_resource type="Material" uid="uid://bvvgxb347scdf" path="res://wrapper.tres" id="1_rgfvd"]
+
+[node name="CSGPolygon3D11" type="CSGPolygon3D"]
+transform = Transform3D(2.26494e-07, -3, -1.31134e-07, 0, -1.31134e-07, 3, -3, -2.26494e-07, -9.90035e-15, 0, 0, 0)
+use_collision = true
+polygon = PackedVector2Array(8, 8, 8, -8, -8, -8, -8, 8)
+depth = 13.75
+material = ExtResource("1_rgfvd")

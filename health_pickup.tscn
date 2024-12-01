@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://cyjp6qlyn0f6"]
+
+[ext_resource type="Script" path="res://health_pickup.gd" id="1_00lw3"]
+[ext_resource type="Texture2D" uid="uid://bo0cwvge6xbbo" path="res://sprites/lives.png" id="2_1rbbl"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_bfpox"]
+radius = 8.0
+
+[sub_resource type="Gradient" id="Gradient_63suf"]
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_7hvsi"]
+gradient = SubResource("Gradient_63suf")
+width = 32
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.6, 0)
+
+[node name="Health" type="Area3D"]
+transform = Transform3D(1, -8.9407e-08, 8.9407e-08, 5.96046e-08, 1, -1.19209e-07, 1.86265e-08, -8.9407e-08, 1, 0, 0, 0)
+script = ExtResource("1_00lw3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, -2.98023e-08, 1.49012e-08, 0, 1, -5.96046e-08, 3.72529e-09, 0, 1, 0, 0, 0)
+shape = SubResource("SphereShape3D_bfpox")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1.645, 9.80496e-08, 4.90248e-08, -9.80496e-08, 1.645, 4.90248e-08, -4.90248e-08, -4.90248e-08, 1.645, 0.0012989, -0.00605488, -0.0168207)
+cast_shadow = 0
+modulate = Color(1, 1, 1, 0.164706)
+pixel_size = 0.079
+billboard = 2
+double_sided = false
+texture = SubResource("GradientTexture2D_7hvsi")
+
+[node name="mesh" type="Node3D" parent="."]
+transform = Transform3D(0.56, 9.23709e-16, -7.10543e-15, 1.24345e-15, 0.56, 1.42109e-14, -1.77636e-15, 0, 0.56, 2.75093e-08, 0.307687, 2.75093e-08)
+
+[node name="Sprite3D2" type="Sprite3D" parent="mesh"]
+transform = Transform3D(1.78571, 2.84852e-14, 0, -3.14034e-15, 1.78571, -2.84217e-14, 0, 0, 1.78571, 0, 2.12, 0)
+pixel_size = 0.0385
+alpha_cut = 2
+texture_filter = 0
+texture = ExtResource("2_1rbbl")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
